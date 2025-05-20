@@ -1,0 +1,53 @@
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.card-title {
+    color: #6c757d;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.card-text {
+    margin-bottom: 0;
+    color: #2c3e50;
+}
+
+/* Graficos */
+canvas {
+    width: 100% !important;
+    height: 300px !important;
+}
+
+/* Usuarios recentes */
+.table img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.table th {
+    border-top: none;
+    color: #6c757d;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+
+    .table-responsive {
+        margin-bottom: 1rem;
+    }
+}
